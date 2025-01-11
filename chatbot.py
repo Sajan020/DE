@@ -1,9 +1,8 @@
 import streamlit as st
-
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Title and Introduction
-st.title("💊🧬 PredictRxBot: Drug Response Prediction Assistant 🤖📊")
+st.title("AI Chatbot for Your Project")
 st.markdown("This is a simple chatbot interface for answering questions related to your project.")
 
 # Load Model and Tokenizer
